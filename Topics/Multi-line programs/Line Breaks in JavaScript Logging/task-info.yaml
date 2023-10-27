@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: <pre><code class="language-javascript">console.log('Hello world. // I am learning;
+      // JavaScript programming. // Having a great time!')</code></pre>
+  - text: <pre><code class="language-javascript">console.log('Hello world.' + 'I am
+      learning;' + 'JavaScript programming.' + 'Having a great time!')</code></pre>
+  - text: <pre><code class="language-javascript">console.log('Hello world. I am learning;
+      JavaScript programming. Having a great time!')</code></pre>
+  - text: <pre><code class="language-javascript">console.log('Hello world. \nI am learning;
+      \nJavaScript programming. \nHaving a great time!')</code></pre>
+  - text: "<pre><code class=\"language-javascript\">console.log(`Hello world. \nI am\
+    \ learning; \nJavaScript programming. \nHaving a great time!`)</code></pre>"
+files:
+  - name: main.js
+    visible: true
+    text: |+
+      // You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/31480#comment
+status: Solved
+record: -1
+local_check: false

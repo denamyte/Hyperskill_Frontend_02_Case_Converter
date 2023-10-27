@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "The <code>let</code> statement will define 'a' with 'hello', the <code>const</code>\
+    \ will define 'b' with 'world', and 'b' can be reassigned with no issues."
+  - text: The <code>let</code> and <code>const</code> keywords are not recognized in
+      JavaScript and will cause an error.
+  - text: "The <code>let</code> statement will define 'a' with 'hello', the<code>const</code>\
+    \ will define 'b' with 'world', and a TypeError will be thrown if we try to reassign\
+    \ the value to 'b'."
+  - text: "Both the <code>let</code> and <code>const</code> statements will define 'a'\
+    \ and 'b' respectively, and reassigning 'b' will lead to a SyntaxError."
+  - text: "Both the <code>let</code> and <code>const</code> statements will be ignored\
+    \ due to the presence of comments, and reassigning to 'b' will have no effect."
+files:
+  - name: main.js
+    visible: true
+    text: |+
+      // You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/30671#comment
+status: Solved
+record: -1
+local_check: false

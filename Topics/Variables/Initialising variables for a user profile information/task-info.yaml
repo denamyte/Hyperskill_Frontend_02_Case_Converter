@@ -1,0 +1,11 @@
+type: unsupported
+files:
+  - name: main.js
+    visible: true
+    text: |+
+      // This is a fill blanks task. You can use this editor as a playground
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/33011#comment
+status: Solved
+record: -1

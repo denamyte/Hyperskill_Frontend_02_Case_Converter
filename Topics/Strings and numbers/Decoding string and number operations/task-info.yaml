@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "&#x27;totalString&#x27; is a string with value &#x27;125&#x27;, &#x27;totalNumber&#x27;\
+    \ is a number with value 17. The outputs are &#x27;125&#x27; and 17."
+  - text: "&#x27;totalString&#x27; is a number with value 125, &#x27;totalNumber&#x27;\
+    \ is a string with value &#x27;17&#x27;. The outputs are 125 and &#x27;17&#x27;."
+  - text: "&#x27;totalString&#x27; is a number with value 17, &#x27;totalNumber&#x27;\
+    \ is a number with value 17. The outputs are 17 and 17."
+  - text: "&#x27;totalString&#x27; is a string with value &#x27;17&#x27;, &#x27;totalNumber&#x27;\
+    \ is a string with value &#x27;17&#x27;. The outputs are &#x27;17&#x27; and &#x27;17&#x27;."
+files:
+  - name: main.js
+    visible: true
+    text: |+
+      // You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/32219#comment
+status: Solved
+record: -1
+local_check: false

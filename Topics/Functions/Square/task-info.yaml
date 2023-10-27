@@ -1,0 +1,14 @@
+type: code
+files:
+  - name: main.js
+    visible: true
+    highlight_level: NONE
+    text: // write your function here
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8393#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 27 Oct 2023 19:08:49 UTC"
+record: -1
+submission_language: javascript

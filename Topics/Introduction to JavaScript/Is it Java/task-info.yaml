@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: JavaScript and Java uses the same syntax.
+  - text: "It was just a marketing move, JavaScript is not related to Java."
+  - text: JavaScript uses Java at its core.
+  - text: It was developed by the same team that developed Java.
+files:
+  - name: main.js
+    visible: true
+    text: |+
+      // You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/16140#comment
+status: Solved
+record: -1
+custom_name: Is it Java?
+local_check: false

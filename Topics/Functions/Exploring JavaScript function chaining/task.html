@@ -1,0 +1,14 @@
+<h2>Exploring JavaScript function chaining</h2>
+<div class="step-text">
+<p>Consider the following JavaScript code where `addNumbers()` is a function that receives two parameters, adds them and increments the result by 1 using increment operator. The `multiply()` is another function, that takes result of `addNumbers()` function and multiplies it by 3. What is the result of invoking `multiply(addNumbers(5,10))`?</p><pre><code class="language-js">
+function addNumbers(x, y) {
+  let sum = x + y;
+  sum++;
+  return sum;
+}
+
+function multiply(num) {
+  return num * 3;
+}
+</code></pre>
+</div>

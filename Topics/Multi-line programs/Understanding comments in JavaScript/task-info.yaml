@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: All comments in the code are single line comments.
+  - text: The first and third comments are multiline comments; the second and fourth
+      comments are single line comments.
+  - text: All comments in the code are multiline comments.
+  - text: "The first and third comments are multiline comments; the second comment is\
+    \ a single line comment, and the fourth comment is a two single line comments."
+files:
+  - name: main.js
+    visible: true
+    text: |+
+      // You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/32375#comment
+status: Solved
+record: -1
+local_check: false

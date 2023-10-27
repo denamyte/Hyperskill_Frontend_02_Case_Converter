@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "&#x27;{&quot;name&quot;:&#x27;John&#x27;, &quot;city&quot;:&#x27;New York&#x27;}&#x27;"
+  - text: "&#x27;{&quot;age&quot;:30, &quot;city&quot;:&quot;New York&quot;}&#x27;"
+  - text: "&#x27;{&quot;name&quot;:&#x27;John&#x27;, &quot;age&quot;:30, &quot;city&quot;:&#x27;New\
+    \ York&#x27;}&#x27;"
+  - text: "&#x27;{&quot;age&quot;:30}&#x27;"
+files:
+  - name: main.js
+    visible: true
+    text: |+
+      // You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/32575#comment
+status: Solved
+record: -1
+local_check: false

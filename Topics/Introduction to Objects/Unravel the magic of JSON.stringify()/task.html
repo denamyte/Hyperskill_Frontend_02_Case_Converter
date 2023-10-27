@@ -1,0 +1,11 @@
+<h2>Unravel the magic of JSON.stringify()</h2>
+<div class="step-text">
+<p>In JavaScript, what will the following code output, taking into account that `replacer` function is being used during transformation of an object into JSON using `JSON.stringify()`?</p><pre><code class="javascript">let person = {name: 'John', age: 30, city: 'New York'};
+function replacer(key, value) {
+  if (typeof value === 'string') {
+    return undefined;
+  }
+  return value;
+}
+JSON.stringify(person, replacer);</code></pre>
+</div>

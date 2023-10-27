@@ -138,10 +138,13 @@ files:
                   return correct()
               }),
               this.node.execute(async () => {
-                  await this.page.pageInstance._client.send('Page.setDownloadBehavior', {
-                      behavior: 'allow',
-                      downloadPath: workingDir + path.sep + "downloads"
-                  });
+                  const client = await this.page.pageInstance.target().createCDPSession()
+                  await client.send(
+                      'Page.setDownloadBehavior', {
+                          behavior: 'allow',
+                          downloadPath: workingDir + path.sep + "downloads"
+                      }
+                  );
                   return correct()
               }),
               this.page.execute(async () => {
@@ -185,6 +188,6 @@ files:
       }, 30000)
     
     learner_created: false
-feedback_link: https://hyperskill.org/projects/193/stages/964/implement#comment
+feedback_link: https://hyperskill.org/learn/step/14001#comment
 status: Unchecked
 record: -1

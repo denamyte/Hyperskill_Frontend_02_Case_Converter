@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: The /* and */ were used to mark the beginning and end of the multi-line comment.
+  - text: The program results in an error because NumStr - num is a string minus a number
+      which is not possible in JavaScript
+  - text: The console.log would output a number 80 because JavaScript treats numeric
+      strings as numbers in mathematical operations (except addition).
+  - text: The variable numStr is created as a number because it holds numeric value.
+  - text: The result of numStr - num would be a string &#x27;80&#x27;.
+files:
+  - name: main.js
+    visible: true
+    text: |+
+      // You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/31426#comment
+status: Solved
+record: -1
+custom_name: Number or String? Dive In JavaScript!
+local_check: false

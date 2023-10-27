@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: "calculate(&#x27;add&#x27;, 5, 3);"
+  - text: "let result = calculate(&#x27;*&#x27;, 5, 3);"
+  - text: "calculate(5, 3, &#x27;+&#x27;);"
+  - text: "calculate(&#x27;+&#x27;, 5, 3);"
+  - text: "console.log(calculate(&#x27;/&#x27;, 5, 3));"
+files:
+  - name: main.js
+    visible: true
+    text: |+
+      // You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/30047#comment
+status: Solved
+record: -1
+local_check: false
