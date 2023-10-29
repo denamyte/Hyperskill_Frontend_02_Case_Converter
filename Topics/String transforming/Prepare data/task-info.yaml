@@ -1,0 +1,17 @@
+type: code
+files:
+  - name: main.js
+    visible: true
+    highlight_level: NONE
+    text: |-
+      function prepareData(line) {
+          //write your code here
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17784#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sun, 29 Oct 2023 22:27:49 UTC"
+record: -1
+submission_language: javascript
