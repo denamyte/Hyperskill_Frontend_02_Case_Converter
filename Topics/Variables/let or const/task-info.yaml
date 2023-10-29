@@ -1,0 +1,17 @@
+type: code
+files:
+  - name: main.js
+    visible: true
+    highlight_level: NONE
+    text: |-
+      // сhange the code below
+      const status = "online";
+      status = "offline";
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8193#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sun, 29 Oct 2023 23:01:30 UTC"
+record: -1
+submission_language: javascript
