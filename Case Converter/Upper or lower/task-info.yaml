@@ -164,6 +164,12 @@ files:
           font-size: 20px;
       }
     learner_created: true
+  - name: assets/script.js
+    visible: true
+    learner_created: true
 feedback_link: https://hyperskill.org/learn/step/14000#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 30 Oct 2023 22:58:11 UTC"
 record: -1
