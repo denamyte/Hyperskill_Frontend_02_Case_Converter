@@ -7,9 +7,8 @@ function capitalize(regex) {
     while ((match = regex.exec(text)) !== null) {
         parts.push(text.substring(match.index, match.index + match[0].length));
     }
-    editor.value = parts.map(sentence =>
-        sentence[0].toUpperCase() + sentence.slice(1)
-    ).join("");
+    editor.value = parts.map(str => str[0].toUpperCase() + str.slice(1))
+        .join("");
 }
 
 const listeners = {
