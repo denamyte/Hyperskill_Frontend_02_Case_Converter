@@ -24,7 +24,18 @@ const listeners = {
     },
     "sentence-case": function () {
         capitalize(/[^.!?]+([.!?] *|$)/g);
-    }
+    },
+    "save-text-file": function () {
+        let element = document.createElement('a');
+        element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(editor.value));
+        element.setAttribute('download', 'text.txt');
+        element.style.display = 'none';
+        document.body.appendChild(element);
+
+        element.click();
+
+        document.body.removeChild(element);
+    },
 }
 
 for (id in listeners) {
